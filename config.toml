@@ -9,6 +9,12 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+taxonomies = [
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
+
 
 
 [markdown]
@@ -17,5 +23,129 @@ build_search_index = true
 highlight_code = true
 
 [extra]
-# Put all your custom variables here
-stylesheet = "abridge.css"
+language_code = "en-US"
+title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
+# To disable title_addition but keep built in page additions eg, Posts page: "Posts | Abridge" set title_addition to an empty string
+# To always set the page title exactly eg "Abridge" then comment out the below line (not recommend, bad for SEO)
+title_addition = "Fast & Lightweight Zola Theme" # a default value for title addition
+
+author = "Jake G" # Put Your Name here
+author_show = true # displays the author name on line with date, tags, categories
+readtime = true # displays the read time on line with date, tags, categories
+readtime_string = "min" # read time indication eg "min": - 1 min  "min read": - 1 min read
+recent = true
+recent_items = 9
+footer_credit = true
+#footer_credit_override = '<p>Powered by <a href="https://www.getzola.org/">Zola</a> &#38; <a href="https://github.com/Jieiku/abridge/">Abridge</a></p>' # <i class="fa-solid fa-heart"></i>
+
+textlogo = '<font color="#f90">A</font>bridge'
+sitedesc = false # enables or disables the display of the site description below the logo.
+#copyright_start_year = 2019  # optional
+#copyright_end_year = 2020  # optional, recommend leaving unset, zola build will set this to current year by default
+
+headhr = false # show or hide horizontal rule below header
+foothr = true # show or hide horizontal rule above footer
+menu = [
+    {url = "/", name = "Home", slash = true},
+    {url = "/about/", name = "About", slash = true},
+    {url = "/posts/", name = "Posts", slash = true},
+    {url = "/categories/", name = "Categories", slash = true},
+    {url = "/tags/", name = "Tags", slash = true},
+]
+menu_footer = [
+    {url = "/", name = "Home", slash = true},
+    {url = "/about/", name = "About", slash = true},
+    {url = "/contact/", name = "Contact", slash = true},
+    {url = "/privacy/", name = "Privacy", slash = true},
+    {url = "/sitemap.xml", name = "Sitemap", slash = false},
+]
+
+# Security Headers should preferably be set by your webserver (Nginx, Apache) https://observatory.mozilla.org
+# If you are unable to load your security headers with your webserver, this will load a couple of them as meta tags.
+# There are many other security related headers most of which can only be set by the webserver method.
+# Comment out either of these meta headers and they wont be used.
+
+security_header_referrer = "strict-origin-when-cross-origin"
+
+#security_header_csp = "default-src 'none'; frame-ancestors 'none'; base-uri 'self'; manifest-src 'self'; connect-src 'self'; form-action 'self'; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com; style-src 'self' cdn.jsdelivr.net fonts.googleapis.com; object-src 'self'; frame-src 'self' *.youtube.com; img-src 'self' data: cdn.cloudflare.com; script-src 'self' 'unsafe-inline' *.youtube.com maps.gstatic.com *.googleapis.com *.google-analytics.com cdnjs.cloudflare.com"
+
+
+#################
+# Resource Files
+#################
+banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
+js_search_index ="search_index.en.js"
+js_search = "search.min.js"
+rss_atom_feed = "atom.xml"
+stylesheet = "abridge.css" # location and file to use for stylesheet:
+#           abridge.css - Orange Automatic Dark/Light Theme based on browser/system preference.
+#      abridge-dark.css - Orange Dark Theme
+#     abridge-light.css - Orange Light Theme
+#      abridge-blue.css - Blue Automatic Night/Light Theme based on browser/system preference.
+# abridge-bluelight.css - Blue Light Theme
+# abridge-bluenight.css - Blue Dark Theme
+
+# favicons, comment out a line to disable loading some or all of these.
+favicon_theme_color = "#333333"
+favicon_ms_color = "#333333"
+favicon_webmanifest = "site.webmanifest" # Used for android-chrome-512x512.png and android-chrome-192x192.png
+favicon_mask = "safari-pinned-tab.svg" # safari-pinned-tab.svg
+favicon_mask_color = "#ff9900"
+favicon180 = "apple-touch-icon.png" # apple-touch-icon.png
+favicon32 = "favicon-32x32.png" # favicon-32x32.png
+favicon16 = "favicon-16x16.png" # favicon-16x16.png
+
+# Uncomment below line to load fontawesome, eg: <i class="fa-solid fa-heart"></i>
+#fontawesome = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
+
+# Externally using googleapis for fonts gets you a Free CDN, AND may already be cached by the end user.
+# Sometimes the font you want is not available by googleapis, or you only want to load local resources.
+# For Locally loaded fonts review: abridge/sass/skins/_abridge_fonts.scss
+
+# For externally loaded Fonts, make sure to include the FULL url including the http/https prefix
+#fonts = [ {url = "https://fonts.googleapis.com/css?family=Montserrat:400,700,italic|Fira+Code:400,italic"} ]
+
+# Local fonts are defined in the css, defining them here only adds the preload tag to the head.
+# preload will eliminate Content Layout Shift, but will hurt with page load time.
+#fonts = [
+#    {url = "font/FiraCode.woff2"},
+#    {url = "font/Jost.woff2"},
+#    {url = "font/Jost-italic.woff2"},
+#    {url = "font/Jost-Bold.woff2"},
+#]
+
+katex_enable = false # used to to render mathematical notations, requires js
+katex_auto_render = false
+
+##########################
+# meta/seo/analytic tags
+##########################
+keywords = "Whatever, SEO, keywords, you want" # used for the primary site index
+twitter = "your-user-name" # used for twitter related
+#google = "Your Google Site verification code."
+#bing = "Your Bing Site verification code."
+seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twitter
+
+# Footer social links; full options listed in macros/social.html
+[extra.social]
+feed = true
+mail = "name@example.com"
+mastodon = "@your-user-name"
+element = "matrix.example.com"
+#matrix = "matrix.example.com"
+buymeacoffee = "your-user-name"
+twitter = "your-user-name"
+facebook = "your-user-name"
+linkedin = "your-user-name"
+gitlab = "your-user-name"
+github = "your-user-name"
+github_sponsor = "your-user-name"
+bitbucket = "your-user-name"
+python = "your-user-name"
+docker = "your-user-name"
+stack = "your-user-name"
+instagram = "your-user-name"
+pinterest = "your-user-name"
+twitch = "your-user-name"
+youtube = "your-channel-id"
+researchgate = "your-profile-id"
