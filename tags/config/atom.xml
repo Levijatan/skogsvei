@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - config</title>
+	<link href="https://levijatan.github.io/skogsvei/tags/config/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://levijatan.github.io/skogsvei/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-05-17T00:00:00+00:00</updated>
+	<id>https://levijatan.github.io/skogsvei/tags/config/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Abridge Zola Theme and css Framework</title>
+		<published>2022-05-17T00:00:00+00:00</published>
+		<updated>2022-05-17T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-abridge/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-abridge/</id>
+		<content type="html">&lt;p&gt;For quick setup copy the config.toml from the abridge theme into the root of your zola site, this will give you a base configuration with all config values used.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;You can then edit or comment out the values in this file as necessary.&lt;&#x2F;p&gt;
+&lt;p&gt;You should also uncomment out the line #theme = &amp;quot;abridge&amp;quot; in your root zola config.toml file. This tells your root zola site to use the abridge theme in the themes folder.&lt;&#x2F;p&gt;
+&lt;p&gt;You can set the number of items that appear on the home page by editing &lt;code&gt;themes\abridge\content\_index.md&lt;&#x2F;code&gt; file and adjusting &lt;code&gt;paginate_by = 5&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You can set the overal page width by editing &lt;code&gt;themes\abridge\sass\_variables.scss&lt;&#x2F;code&gt; file, and adjusting these two lines:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;scss&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-scss &quot;&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mw&lt;&#x2F;span&gt;&lt;span&gt;:&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;50% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;!default&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; max-width
+&lt;&#x2F;span&gt;&lt;span&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mb&lt;&#x2F;span&gt;&lt;span&gt;:&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1200px &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;!default&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; value at which to switch from fluid layout to using max-width
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+	</entry>
+</feed>

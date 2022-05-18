@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - images</title>
+	<link href="https://levijatan.github.io/skogsvei/tags/images/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://levijatan.github.io/skogsvei/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-05-08T00:00:00+00:00</updated>
+	<id>https://levijatan.github.io/skogsvei/tags/images/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Images, Direct and Relative Path</title>
+		<published>2021-05-08T00:00:00+00:00</published>
+		<updated>2021-05-08T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-images/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-images/</id>
+		<content type="html">&lt;p&gt;Images can be embed using direct or relative paths.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Use &lt;code&gt;img()&lt;&#x2F;code&gt; to specify the relative path of image:&lt;&#x2F;p&gt;
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+    
+  
+
+&lt;figure&gt;
+  &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;levijatan.github.io&amp;#x2F;skogsvei&amp;#x2F;processed_images&amp;#x2F;199de027950a8f4800.jpg&quot; &#x2F;&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;This is an example note with direct image, without using shortcode:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;rust.png&quot; alt=&quot;Rust&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is an svg image:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;svg class=&quot;canon&quot; xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; overflow=&quot;visible&quot; viewBox=&quot;0 0 496 373&quot; height=&quot;373&quot; width=&quot;496&quot;&gt;&lt;g fill=&quot;none&quot;&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515&quot;&gt;&lt;&#x2F;path&gt;&lt;path stroke=&quot;#ED1C24&quot; stroke-width=&quot;.75&quot; d=&quot;M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z&quot;&gt;&lt;&#x2F;path&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.479.375h495v372h-495zM247.979.875v372&quot;&gt;&lt;&#x2F;path&gt;&lt;ellipse cx=&quot;498.729&quot; cy=&quot;177.625&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;&#x2F;ellipse&gt;&lt;ellipse cx=&quot;247.229&quot; cy=&quot;377.375&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;&#x2F;ellipse&gt;&lt;&#x2F;g&gt;&lt;&#x2F;svg&gt;&lt;&#x2F;p&gt;
+&lt;style&gt;
+.canon { background: white; width: 50%; height: auto; }
+&lt;&#x2F;style&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Rich Content</title>
+		<published>2021-05-06T00:00:00+00:00</published>
+		<updated>2021-05-06T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-rich-content/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-rich-content/</id>
+		<content type="html">&lt;p&gt;Several custom shortcodes are included to augment CommonMark (courtesy of d3c3nt theme), in addition to those &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;shortcodes&#x2F;#built-in-shortcodes&quot;&gt;already provided by Zola&lt;&#x2F;a&gt;. &lt;code&gt;video&lt;&#x2F;code&gt;, &lt;code&gt;image&lt;&#x2F;code&gt;, &lt;code&gt;gif&lt;&#x2F;code&gt;, and &lt;code&gt;audio&lt;&#x2F;code&gt; were created to help you take advantage of modern HTML elements in your writing.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;video&quot;&gt;Video&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;video&lt;&#x2F;code&gt; shortcode takes a &lt;code&gt;sources&lt;&#x2F;code&gt; parameter (an array of strings)
+and returns a &lt;code&gt;&amp;lt;video&amp;gt;&lt;&#x2F;code&gt; tag. Each string in the &lt;code&gt;sources&lt;&#x2F;code&gt; array should
+be a path to a video file of a different type (&lt;code&gt;webm&lt;&#x2F;code&gt;, &lt;code&gt;mp4&lt;&#x2F;code&gt;, etc). Each
+individual source is then converted into a &lt;code&gt;&amp;lt;source&amp;gt;&lt;&#x2F;code&gt; tag, and the
+element is returned.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;video&lt;&#x2F;span&gt;&lt;span&gt;(sources=[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;]) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;video &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;controls&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;video&#x2F;webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;video&#x2F;mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  Your browser doesn&amp;#39;t support the video tag and&#x2F;or the video formats in use here – sorry!
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;video&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;image&quot;&gt;Image&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;image&lt;&#x2F;code&gt; shortcode returns a &lt;code&gt;&amp;lt;picture&amp;gt;&lt;&#x2F;code&gt; tag and accepts three
+parameters: &lt;code&gt;sources&lt;&#x2F;code&gt; (an array of strings), &lt;code&gt;fallback_path&lt;&#x2F;code&gt;, and
+&lt;code&gt;fallback_alt&lt;&#x2F;code&gt; (both strings).&lt;&#x2F;p&gt;
+&lt;p&gt;Each string in the &lt;code&gt;sources&lt;&#x2F;code&gt; array should be a path to an image file of
+a different type (&lt;code&gt;webp&lt;&#x2F;code&gt;, &lt;code&gt;png&lt;&#x2F;code&gt;, &lt;code&gt;jpg&lt;&#x2F;code&gt;, etc). &lt;code&gt;fallback_path&lt;&#x2F;code&gt; and
+&lt;code&gt;fallback_alt&lt;&#x2F;code&gt; are used to create an &lt;code&gt;&amp;lt;img&amp;gt;&lt;&#x2F;code&gt; tag for the browser to fall
+back on if the other formats aren&#x27;t yet supported.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage-1&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;image&lt;&#x2F;span&gt;&lt;span&gt;(sources=[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.webp&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.jpg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;], fallback_path=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, fallback_alt=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Lorem Ipsum&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output-1&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;picture&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;srcset&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.webp&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;img&#x2F;webp&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;srcset&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.jpg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;img&#x2F;jpg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;srcset&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;img&#x2F;png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;img &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;alt&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Lorem Ipsum&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&#x2F;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;picture&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;gif&quot;&gt;GIF&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;gif&lt;&#x2F;code&gt; shortcode is exactly the same as the &lt;a href=&quot;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-rich-content&#x2F;#video&quot;&gt;video shortcode&lt;&#x2F;a&gt;
+– it takes an array of strings called &lt;code&gt;sources&lt;&#x2F;code&gt; and returns a
+&lt;code&gt;&amp;lt;video&amp;gt;&lt;&#x2F;code&gt; tag. The only difference is in the outermost tag, which has
+four additional properties: &lt;code&gt;autoplay&lt;&#x2F;code&gt;, &lt;code&gt;loop&lt;&#x2F;code&gt;, &lt;code&gt;muted&lt;&#x2F;code&gt;, &lt;code&gt;playsinline&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Using the &lt;code&gt;&amp;lt;video&amp;gt;&lt;&#x2F;code&gt; tag in place of gifs allows for reduced file sizes,
+which is especially important in regions where internet is slower or
+less reliable.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage-2&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;gif&lt;&#x2F;span&gt;&lt;span&gt;(sources=[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;]) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output-2&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;video &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;autoplay loop muted playsinline&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;video&#x2F;webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;video&#x2F;mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  Your browser doesn&amp;#39;t support the video tag, which I use in place of .gifs, and&#x2F;or the video formats in use here – sorry!
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;video&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;audio&quot;&gt;Audio&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;audio&lt;&#x2F;code&gt; shortcode takes a &lt;code&gt;sources&lt;&#x2F;code&gt; array of strings and returns an
+&lt;code&gt;&amp;lt;audio&amp;gt;&lt;&#x2F;code&gt; tag. Each string in the &lt;code&gt;sources&lt;&#x2F;code&gt; array should be a path to an
+audio file of a different type (&lt;code&gt;wav&lt;&#x2F;code&gt;, &lt;code&gt;ogg&lt;&#x2F;code&gt;, &lt;code&gt;mp3&lt;&#x2F;code&gt;, etc).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage-3&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;audio&lt;&#x2F;span&gt;&lt;span&gt;(sources=[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.wav&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.ogg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.mp3&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;]) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output-3&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;audio &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;controls&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.wav&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;audio&#x2F;wav&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.ogg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;audio&#x2F;ogg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.mp3&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;audio&#x2F;mp3&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  Your browser doesn&amp;#39;t support the audio tag and&#x2F;or the audio formats in use here – sorry!
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;audio&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+	</entry>
+</feed>

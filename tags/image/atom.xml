@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - image</title>
+	<link href="https://levijatan.github.io/skogsvei/tags/image/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://levijatan.github.io/skogsvei/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-05-04T00:00:00+00:00</updated>
+	<id>https://levijatan.github.io/skogsvei/tags/image/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Image Comparison imagehover Shortcode</title>
+		<published>2021-05-04T00:00:00+00:00</published>
+		<updated>2021-05-04T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-fonts-imagehover-shortcode/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-fonts-imagehover-shortcode/</id>
+		<content type="html">&lt;p&gt;This shortcode accepts an array of images, the first element is the default, the remaining images are hover images.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;with &lt;code&gt;imagehover(sources=[&amp;quot;file1.jpg&amp;quot;, &amp;quot;file2.jpg&amp;quot;, &amp;quot;file3.jpg&amp;quot;])&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+
+
+    &lt;div id=&quot;DroidSans&quot;&gt;## DroidSans &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;DroidSans&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;DroidSans&#x27;).innerHTML=&#x27;DroidSans&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;DroidSansimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+    &lt;div id=&quot;Roboto&quot;&gt;## Roboto &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;Roboto&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;Roboto&#x27;).innerHTML=&#x27;Roboto&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;Robotoimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+    &lt;div id=&quot;Arimo&quot;&gt;## Arimo &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;Arimo&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;Arimo&#x27;).innerHTML=&#x27;Arimo&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;Arimoimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+    &lt;div id=&quot;Lato&quot;&gt;## Lato &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;Lato&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;Lato&#x27;).innerHTML=&#x27;Lato&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;Latoimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+    &lt;div id=&quot;Ubuntu&quot;&gt;## Ubuntu &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;Ubuntu&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;Ubuntu&#x27;).innerHTML=&#x27;Ubuntu&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;Ubuntuimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+&lt;style&gt;
+      #DroidSansimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;DroidSans.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #DroidSansimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+      #Robotoimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;Roboto.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #Robotoimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+      #Arimoimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;Arimo.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #Arimoimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+      #Latoimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;Lato.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #Latoimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+      #Ubuntuimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;Ubuntu.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #Ubuntuimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+&lt;&#x2F;style&gt;
+</content>
+	</entry>
+</feed>

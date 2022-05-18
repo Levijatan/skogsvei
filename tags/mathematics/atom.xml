@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - Mathematics</title>
+	<link href="https://levijatan.github.io/skogsvei/tags/mathematics/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://levijatan.github.io/skogsvei/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-01-01T00:00:00+00:00</updated>
+	<id>https://levijatan.github.io/skogsvei/tags/mathematics/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Mathematical Notations Support</title>
+		<published>2021-05-05T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-math/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-math/</id>
+		<content type="html">&lt;p&gt;You can use &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&quot;&gt;$\KaTeX$&lt;&#x2F;a&gt; to render mathematical notations.&lt;&#x2F;p&gt;
+&lt;p&gt;You can enable the $\KaTeX$ support globally, per-section or per-page basis.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;enable-globally&quot;&gt;Enable Globally&lt;&#x2F;h3&gt;
+&lt;p&gt;To enable the $\KaTeX$ support globally, add &lt;code&gt;math = true&lt;&#x2F;code&gt; under &lt;code&gt;[extra]&lt;&#x2F;code&gt; of the &lt;code&gt;config.toml&lt;&#x2F;code&gt;
+at your site root. Now every section and page of your site will load the KaTeX &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;autorender.html&quot;&gt;autorender extension&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;math &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;per-section-basis&quot;&gt;Per-section Basis&lt;&#x2F;h3&gt;
+&lt;p&gt;To enable the $\KaTeX$ support in a particular section, add &lt;code&gt;math = true&lt;&#x2F;code&gt; under &lt;code&gt;[extra]&lt;&#x2F;code&gt; in the &lt;code&gt;[SECTION_NAME]&#x2F;_index.md&lt;&#x2F;code&gt;. Now every page under this section will load the KaTeX
+&lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;autorender.html&quot;&gt;autorender extension&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span&gt;math = true
+&lt;&#x2F;span&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;per-page-basis&quot;&gt;Per-page Basis&lt;&#x2F;h3&gt;
+&lt;p&gt;To enable the $\KaTeX$ support in a particular page, add &lt;code&gt;math = true&lt;&#x2F;code&gt; under &lt;code&gt;[extra]&lt;&#x2F;code&gt; in the page&#x27;s
+frontmatter. Now this page will load the $\KaTeX$ &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;autorender.html&quot;&gt;autorender extension&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span&gt;math = true
+&lt;&#x2F;span&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;It is a good practice to enable $\KaTeX$ support on a per-page basis, since this will only load the
+required files on that particular page, without affecting the page load speed of other pages.
+If your site is not math-heavy, please do NOT enable this feature globally or per-section basis.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h2&gt;
+&lt;p&gt;Wrap any &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;supported.html&quot;&gt;valid&lt;&#x2F;a&gt; $\KaTeX$ syntax with &lt;code&gt;$...$&lt;&#x2F;code&gt; for inline
+Mathematics and &lt;code&gt;$$...$$&lt;&#x2F;code&gt; for block Mathematics.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;inline-mathematics&quot;&gt;Inline Mathematics&lt;&#x2F;h3&gt;
+&lt;p&gt;This is the most beautiful equation I&#x27;ve ever seen:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;$e^{i\pi}+1=0$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;$e^{i\pi}+1=0$&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;block-mathematics&quot;&gt;Block Mathematics&lt;&#x2F;h3&gt;
+&lt;p&gt;Some Mathematics in display mode is fair enough:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;span&gt;\int_0^1 x^2 dx
+&lt;&#x2F;span&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;$$
+\int_0^1 x^2 dx
+$$&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;another-example&quot;&gt;Another Example&lt;&#x2F;h3&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;span&gt;f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+&lt;&#x2F;span&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi),e^{2 \pi i \xi x},d\xi
+$$&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

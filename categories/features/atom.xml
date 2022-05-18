@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title> - Features</title>
+	<link href="https://levijatan.github.io/skogsvei/categories/features/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://levijatan.github.io/skogsvei/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-05-17T00:00:00+00:00</updated>
+	<id>https://levijatan.github.io/skogsvei/categories/features/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Abridge Zola Theme and css Framework</title>
+		<published>2022-05-17T00:00:00+00:00</published>
+		<updated>2022-05-17T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-abridge/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-abridge/</id>
+		<content type="html">&lt;p&gt;For quick setup copy the config.toml from the abridge theme into the root of your zola site, this will give you a base configuration with all config values used.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;You can then edit or comment out the values in this file as necessary.&lt;&#x2F;p&gt;
+&lt;p&gt;You should also uncomment out the line #theme = &amp;quot;abridge&amp;quot; in your root zola config.toml file. This tells your root zola site to use the abridge theme in the themes folder.&lt;&#x2F;p&gt;
+&lt;p&gt;You can set the number of items that appear on the home page by editing &lt;code&gt;themes\abridge\content\_index.md&lt;&#x2F;code&gt; file and adjusting &lt;code&gt;paginate_by = 5&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You can set the overal page width by editing &lt;code&gt;themes\abridge\sass\_variables.scss&lt;&#x2F;code&gt; file, and adjusting these two lines:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;scss&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-scss &quot;&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mw&lt;&#x2F;span&gt;&lt;span&gt;:&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;50% &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;!default&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; max-width
+&lt;&#x2F;span&gt;&lt;span&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;mb&lt;&#x2F;span&gt;&lt;span&gt;:&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1200px &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;!default&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; value at which to switch from fluid layout to using max-width
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Code Blocks and Themes</title>
+		<published>2022-05-16T00:00:00+00:00</published>
+		<updated>2022-05-16T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-code-blocks/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-code-blocks/</id>
+		<content type="html">&lt;p&gt;This article shows various Code Blocks allowing to easily compare sublime themes.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;&#x2F;h2&gt;
+&lt;p&gt;Code blocks.. ❤️ with automatic syntax highlighting ✨‍&lt;&#x2F;p&gt;
+&lt;p&gt;See &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;syntax-highlighting&#x2F;&quot;&gt;the docs&lt;&#x2F;a&gt; for options.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;inline-code-block&quot;&gt;Inline Code block&lt;&#x2F;h3&gt;
+&lt;p&gt;If we want, we can also &lt;code&gt;specify inline code&lt;&#x2F;code&gt; which is useful for &lt;code&gt;the small stuff&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;rust&quot;&gt;rust&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F;! jelly-actix-web-starter - A starter template for actix-web projects that feels very Django-esque. Avoid the boring stuff and move faster.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;use &lt;&#x2F;span&gt;&lt;span&gt;jelly::actix_web;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;use&lt;&#x2F;span&gt;&lt;span&gt; mainlib;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;use &lt;&#x2F;span&gt;&lt;span&gt;std::io;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;#[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;actix_web&lt;&#x2F;span&gt;&lt;span&gt;::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span&gt;async &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() -&amp;gt; io::Result&amp;lt;()&amp;gt; {
+&lt;&#x2F;span&gt;&lt;span&gt;    mainlib::main().await
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; context = Context::new();
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;toml&quot;&gt;TOML&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;base_url &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;jieiku.github.io&#x2F;abridge-demo&#x2F;&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;title &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Abridge&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;description &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Abridge is a fast and lightweight Zola theme using semantic html, abridge.css class-light CSS, and No JS.&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;default_language &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;en&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;#theme = &amp;quot;abridge&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;build_search_index &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;minify_html &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;false
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;feed_filename &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;atom.xml&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;taxonomies &lt;&#x2F;span&gt;&lt;span&gt;= [
+&lt;&#x2F;span&gt;&lt;span&gt;    {&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;categories&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;feed &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span&gt;},
+&lt;&#x2F;span&gt;&lt;span&gt;    {&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;tags&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;feed &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span&gt;},
+&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;html&quot;&gt;html&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;!doctype html&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;html &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;lang&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;en&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;meta &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;charset&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;utf-8&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;Example HTML5 Document&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&amp;lt;!--Main Content Area--&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;Test&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;html&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;javascript&quot;&gt;javascript&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;javascript&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-javascript &quot;&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;function &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;closeSearch&lt;&#x2F;span&gt;&lt;span&gt;() {&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F;close the search displaying the regular page.
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;e &lt;&#x2F;span&gt;&lt;span&gt;= document.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;querySelector&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;e&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;innerHTML &lt;&#x2F;span&gt;&lt;span&gt;= window.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;main
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;function &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;goSearch&lt;&#x2F;span&gt;&lt;span&gt;() {&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; on enter key or search icon click display results to the page.
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;const &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;e &lt;&#x2F;span&gt;&lt;span&gt;= document.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;querySelector&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;    window.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;main &lt;&#x2F;span&gt;&lt;span&gt;|| (window.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;main &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;e&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;innerHTML&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;t &lt;&#x2F;span&gt;&lt;span&gt;= document.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;getElementById&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;suggestions&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;),
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;n &lt;&#x2F;span&gt;&lt;span&gt;= ((&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;ResultsClone &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;t&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cloneNode&lt;&#x2F;span&gt;&lt;span&gt;(!&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;)).id = &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;results&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, document.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;createElement&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;div&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)),
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;o &lt;&#x2F;span&gt;&lt;span&gt;= &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;lt;h2&amp;gt;&amp;lt;button type=&amp;quot;button&amp;quot; title=&amp;quot;Close Search&amp;quot; onclick=&amp;quot;closeSearch()&amp;quot;&amp;gt;&amp;lt;i class=&amp;quot;svgs x&amp;quot;&amp;gt;&amp;lt;&#x2F;i&amp;gt;&amp;lt;&#x2F;button&amp;gt; Results For: &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;concat&lt;&#x2F;span&gt;&lt;span&gt;(document.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;getElementById&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;userinput&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;).value, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;lt;&#x2F;h2&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;n&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;innerHTML &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;o&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;ResultsClone&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;insertBefore&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;n&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;ResultsClone&lt;&#x2F;span&gt;&lt;span&gt;.firstChild), &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;e&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;innerHTML &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;ResultsClone&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;outerHTML&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;t&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;innerHTML &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&amp;quot;, document.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;getElementById&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;userinput&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;).value = &amp;quot;&amp;quot;, !&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1
+&lt;&#x2F;span&gt;&lt;span&gt;}! &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;function&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; search function code goes here
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;php&quot;&gt;php&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;php&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-php &quot;&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span style=&quot;color:#ab7967;&quot;&gt;&amp;lt;?php
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;**
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; * Postfix Admin
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; *&#x2F;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;require_once&lt;&#x2F;span&gt;&lt;span&gt;(&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;common.php&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;);
+&lt;&#x2F;span&gt;&lt;span&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;CONF &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ebcb8b;&quot;&gt;Config&lt;&#x2F;span&gt;&lt;span&gt;::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;getInstance&lt;&#x2F;span&gt;&lt;span&gt;()-&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;getAll&lt;&#x2F;span&gt;&lt;span&gt;();
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;($&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;_SERVER&lt;&#x2F;span&gt;&lt;span&gt;[&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;REQUEST_METHOD&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;] == &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;POST&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;) {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;(!&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;isset&lt;&#x2F;span&gt;&lt;span&gt;($&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;_SESSION&lt;&#x2F;span&gt;&lt;span&gt;[&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;PFA_token&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;])) {
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;die&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Invalid token (session timeout; refresh the page and try again?)&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;    $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;fUsername &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;trim&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;safepost&lt;&#x2F;span&gt;&lt;span&gt;(&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;fUsername&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;));
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;($&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;lang &lt;&#x2F;span&gt;&lt;span&gt;!= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;check_language&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span&gt;)) { &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# only set cookie if language selection was changed
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;setcookie&lt;&#x2F;span&gt;&lt;span&gt;(&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;lang&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;, $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;lang&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;time&lt;&#x2F;span&gt;&lt;span&gt;() + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;60&lt;&#x2F;span&gt;&lt;span&gt;*&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;60&lt;&#x2F;span&gt;&lt;span&gt;*&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;24&lt;&#x2F;span&gt;&lt;span&gt;*&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;30&lt;&#x2F;span&gt;&lt;span&gt;); &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# language cookie, lifetime 30 days
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;_SESSION&lt;&#x2F;span&gt;&lt;span&gt;[&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;PFA_token&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;] = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;md5&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;uniqid&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;pfa&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; . &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;rand&lt;&#x2F;span&gt;&lt;span&gt;(), &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span&gt;));
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;* vim: set expandtab softtabstop=4 tabstop=4 shiftwidth=4: *&#x2F;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;json&quot;&gt;json&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;json&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-json &quot;&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Abridge Zola Theme&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;short_name&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Abridge&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;start_url&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;jieiku.github.io&#x2F;abridge-demo&#x2F;&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;description&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Fast &amp;amp; Lightweight Zola Theme&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;scope&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&#x2F;&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;display&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;standalone&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;theme_color&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;#222222&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;background_color&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;#111111&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;icons&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: [
+&lt;&#x2F;span&gt;&lt;span&gt;        {
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&#x2F;android-chrome-192x192.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;sizes&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;192x192&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;image&#x2F;png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        },
+&lt;&#x2F;span&gt;&lt;span&gt;        {
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&#x2F;android-chrome-512x512.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;sizes&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;512x512&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;image&#x2F;png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        },
+&lt;&#x2F;span&gt;&lt;span&gt;        {
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&#x2F;android-chrome-192x192x128m.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;sizes&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;192x192&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;image&#x2F;png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;purpose&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;maskable&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        }
+&lt;&#x2F;span&gt;&lt;span&gt;    ]
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;sql&quot;&gt;SQL&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;sql&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-sql &quot;&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;-- jelly-actix-web-starter - Creates an accounts table, along with some associated helpers.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;create or replace function &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;update_timestamp&lt;&#x2F;span&gt;&lt;span&gt;() returns trigger as $$
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;begin
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;new&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;updated &lt;&#x2F;span&gt;&lt;span&gt;= now();
+&lt;&#x2F;span&gt;&lt;span&gt;    return new;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;end&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;$$ language &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;plpgsql&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;create table &lt;&#x2F;span&gt;&lt;span&gt;if not exists &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;accounts&lt;&#x2F;span&gt;&lt;span&gt; (
+&lt;&#x2F;span&gt;&lt;span&gt;    id &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;serial primary key&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    name &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;text &lt;&#x2F;span&gt;&lt;span&gt;not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    email &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;text &lt;&#x2F;span&gt;&lt;span&gt;not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null&lt;&#x2F;span&gt;&lt;span&gt; unique,
+&lt;&#x2F;span&gt;&lt;span&gt;    password &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;text &lt;&#x2F;span&gt;&lt;span&gt;not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    profile jsonb not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;default &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;,
+&lt;&#x2F;span&gt;&lt;span&gt;    plan &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;integer &lt;&#x2F;span&gt;&lt;span&gt;not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;default &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    is_active &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;boolean &lt;&#x2F;span&gt;&lt;span&gt;not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;default &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    is_admin &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;boolean &lt;&#x2F;span&gt;&lt;span&gt;not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;default &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    has_verified_email &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;boolean &lt;&#x2F;span&gt;&lt;span&gt;not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;default &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    last_login &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;timestamp with time zone&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    created &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;timestamp with time zone &lt;&#x2F;span&gt;&lt;span&gt;not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;default&lt;&#x2F;span&gt;&lt;span&gt; now(),
+&lt;&#x2F;span&gt;&lt;span&gt;    updated &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;timestamp with time zone &lt;&#x2F;span&gt;&lt;span&gt;not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;null &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;default&lt;&#x2F;span&gt;&lt;span&gt; now()
+&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;create unique index &lt;&#x2F;span&gt;&lt;span&gt;accounts_unique_lower_email_idx on &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;accounts&lt;&#x2F;span&gt;&lt;span&gt; (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;lower&lt;&#x2F;span&gt;&lt;span&gt;(email));
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;create trigger &lt;&#x2F;span&gt;&lt;span&gt;user_updated before insert or update on &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;accounts
+&lt;&#x2F;span&gt;&lt;span&gt;for each row execute procedure update_timestamp();
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;lua&quot;&gt;Lua&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;lua&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-lua &quot;&gt;&lt;code class=&quot;language-lua&quot; data-lang=&quot;lua&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;function &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;square&lt;&#x2F;span&gt;&lt;span&gt;(x)
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;x &lt;&#x2F;span&gt;&lt;span&gt;* &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;x
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;end
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;square&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;)) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;-- prints &amp;#39;4&amp;#39;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;function &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;getPlayerInformation&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;playerName &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;UnitName&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;player&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;playerLevel &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;UnitLevel&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;player&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;specId&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;specName &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;GetSpecializationInfo&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;GetSpecialization&lt;&#x2F;span&gt;&lt;span&gt;())
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Hey, I&amp;#39;m &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; .. &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;playerName &lt;&#x2F;span&gt;&lt;span&gt;.. &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt; (Level &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; .. &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;playerLevel &lt;&#x2F;span&gt;&lt;span&gt;.. &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;). I&amp;#39;m currently in spec &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; .. &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;specName &lt;&#x2F;span&gt;&lt;span&gt;.. &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;end
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;getPlayerInformation&lt;&#x2F;span&gt;&lt;span&gt;())
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;c&quot;&gt;C&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;c&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-c &quot;&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;#include &lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;stdio.h&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt; a;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;* actual initialization *&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;    a = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;printf&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Hello, World!&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;c-1&quot;&gt;C++&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;cpp&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-cpp &quot;&gt;&lt;code class=&quot;language-cpp&quot; data-lang=&quot;cpp&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Your First C++ Program
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;#include &lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;iostream&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt; a;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;* actual initialization *&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;    a = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    std::cout &amp;lt;&amp;lt; &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Hello World!&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;go&quot;&gt;Go&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;go&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-go &quot;&gt;&lt;code class=&quot;language-go&quot; data-lang=&quot;go&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;package &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;main
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;fmt&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;func &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;myvariable1 &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;20
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;myvariable2 &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;hello world&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;fmt&lt;&#x2F;span&gt;&lt;span&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Println&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;hello world&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;python&quot;&gt;Python&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;#!&#x2F;usr&#x2F;bin&#x2F;env python3
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;smtplib, socket
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span&gt;influxdb &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;InfluxDBClient
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;while &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;True&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;    send = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1
+&lt;&#x2F;span&gt;&lt;span&gt;    later = time.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;time&lt;&#x2F;span&gt;&lt;span&gt;() + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;25200
+&lt;&#x2F;span&gt;&lt;span&gt;    iso = time.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;ctime&lt;&#x2F;span&gt;&lt;span&gt;(later)
+&lt;&#x2F;span&gt;&lt;span&gt;    tempF = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;round&lt;&#x2F;span&gt;&lt;span&gt;(bme280.temperature * &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1.8 &lt;&#x2F;span&gt;&lt;span&gt;+ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;29&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;#C to F formula is +32, difference is to correct bme280 temperature offset
+&lt;&#x2F;span&gt;&lt;span&gt;    humidity = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;round&lt;&#x2F;span&gt;&lt;span&gt;(bme280.humidity, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;    pressure = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;round&lt;&#x2F;span&gt;&lt;span&gt;(bme280.pressure, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# serialize data as JSON
+&lt;&#x2F;span&gt;&lt;span&gt;    data = [
+&lt;&#x2F;span&gt;&lt;span&gt;        {
+&lt;&#x2F;span&gt;&lt;span&gt;          &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;measurement&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: measurement,
+&lt;&#x2F;span&gt;&lt;span&gt;              &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;tags&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: {
+&lt;&#x2F;span&gt;&lt;span&gt;                  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;location&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: location,
+&lt;&#x2F;span&gt;&lt;span&gt;              },
+&lt;&#x2F;span&gt;&lt;span&gt;              &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;time&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: iso,
+&lt;&#x2F;span&gt;&lt;span&gt;              &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;fields&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: {
+&lt;&#x2F;span&gt;&lt;span&gt;                  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;temperature&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; : tempF,
+&lt;&#x2F;span&gt;&lt;span&gt;                  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;humidity&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: humidity,
+&lt;&#x2F;span&gt;&lt;span&gt;                  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;pressure&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: pressure
+&lt;&#x2F;span&gt;&lt;span&gt;                               }
+&lt;&#x2F;span&gt;&lt;span&gt;          }
+&lt;&#x2F;span&gt;&lt;span&gt;        ]
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Send the JSON data to InfluxDB
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;try&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;      client.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;write_points&lt;&#x2F;span&gt;&lt;span&gt;(data)
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;except &lt;&#x2F;span&gt;&lt;span&gt;socket.error &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;as &lt;&#x2F;span&gt;&lt;span&gt;e:
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Could Not Connect to InfluxDB!&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;tempF &amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;90 &lt;&#x2F;span&gt;&lt;span&gt;and humidity &amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;55&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;      emailSubject = &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Humidity&amp;gt;55:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(humidity)) + &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;%H&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;  , Temperature&amp;gt;90:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(tempF)) + &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;F&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;      emailContent = &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Humidity:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(humidity)) + &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;%H&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;  , Temperature:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(tempF)) + &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;F  &amp;lt;a href=&amp;quot;https:&#x2F;&#x2F;metrics.example.com&amp;quot;&amp;gt;Dashboard&amp;lt;&#x2F;a&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span&gt;humidity &amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;55&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;      emailSubject = &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Humidity&amp;gt;55:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(humidity)) + &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;%H&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;      emailContent = &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Humidity:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(humidity)) + &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;%H&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;  , Temperature:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(tempF)) + &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;F  &amp;lt;a href=&amp;quot;https:&#x2F;&#x2F;metrics.example.com&amp;quot;&amp;gt;Dashboard&amp;lt;&#x2F;a&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;elif &lt;&#x2F;span&gt;&lt;span&gt;tempF &amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;90&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;      emailSubject = &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Temperature&amp;gt;90:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(tempF)) + &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;F&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;      emailContent = &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Humidity:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(humidity)) + &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;%H&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;  , Temperature:  &lt;&#x2F;span&gt;&lt;span&gt;&amp;#39; + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(tempF)) + &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;F  &amp;lt;a href=&amp;quot;https:&#x2F;&#x2F;metrics.example.com&amp;quot;&amp;gt;Dashboard&amp;lt;&#x2F;a&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;else&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;      send = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;send == &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;try&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;time.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;time&lt;&#x2F;span&gt;&lt;span&gt;() &amp;gt; lastEmailTime or &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;abs&lt;&#x2F;span&gt;&lt;span&gt;(lastTemp-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(tempF)) &amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;          lastEmailTime = time.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;time&lt;&#x2F;span&gt;&lt;span&gt;()+emailInterval
+&lt;&#x2F;span&gt;&lt;span&gt;          lastTemp = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;int&lt;&#x2F;span&gt;&lt;span&gt;(tempF)
+&lt;&#x2F;span&gt;&lt;span&gt;          sender.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sendmail&lt;&#x2F;span&gt;&lt;span&gt;(&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;jake@example.com&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;, emailSubject, emailContent)
+&lt;&#x2F;span&gt;&lt;span&gt;      &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;except &lt;&#x2F;span&gt;&lt;span&gt;socket.error &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;as &lt;&#x2F;span&gt;&lt;span&gt;e:
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Could Not Connect to SMTP server!&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;    time.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sleep&lt;&#x2F;span&gt;&lt;span&gt;(interval)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Markdown Syntax Guide</title>
+		<published>2022-05-15T00:00:00+00:00</published>
+		<updated>2022-05-15T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-markdown-syntax/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-markdown-syntax/</id>
+		<content type="html">&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Zola content files, also it shows if basic HTML elements are decorated with CSS in a Zola theme.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; elements represent six levels of section
+headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; is the lowest.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;h1&quot;&gt;H1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2&quot;&gt;H2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3&quot;&gt;H3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4&quot;&gt;H4&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;h5&quot;&gt;H5&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;h6&quot;&gt;H6&lt;&#x2F;h6&gt;
+&lt;h2 id=&quot;paragraph&quot;&gt;Paragraph&lt;&#x2F;h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum,
+voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma
+dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as
+cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin
+porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur?
+Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit
+ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda
+veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore
+eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata
+tiustia prat.&lt;&#x2F;p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne
+sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;&#x2F;h2&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source,
+optionally with a citation which must be within a &lt;code&gt;footer&lt;&#x2F;code&gt; or &lt;code&gt;cite&lt;&#x2F;code&gt; element,
+and optionally with in-line changes such as annotations and abbreviations.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;blockquote-without-attribution&quot;&gt;Blockquote without attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;&#x2F;strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;&#x2F;em&gt; within a blockquote.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;blockquote-with-attribution&quot;&gt;Blockquote with attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&#x27;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
+— &lt;cite&gt;Rob Pike&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All men by nature desire to know.&lt;br&gt;
+― &lt;cite&gt;Aristotle&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h2&gt;
+&lt;p&gt;Tables aren&#x27;t part of the core Markdown spec, but Zola supports them
+out-of-the-box.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Name&lt;&#x2F;th&gt;&lt;th&gt;Age&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Alice&lt;&#x2F;td&gt;&lt;td&gt;23&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Bob&lt;&#x2F;td&gt;&lt;td&gt;27&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Cody&lt;&#x2F;td&gt;&lt;td&gt;33&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;John&lt;&#x2F;td&gt;&lt;td&gt;59&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Kerry&lt;&#x2F;td&gt;&lt;td&gt;23&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h4 id=&quot;inline-markdown-within-tables&quot;&gt;Inline Markdown within tables&lt;&#x2F;h4&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Italics&lt;&#x2F;th&gt;&lt;th&gt;Bold&lt;&#x2F;th&gt;&lt;th&gt;Code&lt;&#x2F;th&gt;&lt;th&gt;StrikeThrough&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;em&gt;italics&lt;&#x2F;em&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;bold&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;code&gt;code&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;del&gt;strikethrough&lt;&#x2F;del&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;foldable-text&quot;&gt;Foldable Text&lt;&#x2F;h2&gt;
+&lt;details&gt;
+    &lt;summary&gt;Title 1&lt;&#x2F;summary&gt;
+    &lt;p&gt;IT&#x27;S A SECRET TO EVERYBODY.&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;details&gt;
+    &lt;summary&gt;Title 2&lt;&#x2F;summary&gt;
+    &lt;p&gt;Stay awhile, and listen!&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;&#x2F;h2&gt;
+&lt;p&gt;Code blocks.. ❤️ with automatic syntax highlighting ✨‍&lt;&#x2F;p&gt;
+&lt;p&gt;See &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;syntax-highlighting&#x2F;&quot;&gt;the docs&lt;&#x2F;a&gt; for options.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;code-block-with-backticks&quot;&gt;Code block with backticks&lt;&#x2F;h4&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;!doctype html&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;html &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;lang&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;en&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;meta &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;charset&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;utf-8&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;Example HTML5 Document&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;Test&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;html&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;inline-code-block&quot;&gt;Inline Code block&lt;&#x2F;h4&gt;
+&lt;p&gt;If we want, we can also &lt;code&gt;specify inline code&lt;&#x2F;code&gt; which is useful for &lt;code&gt;the small stuff&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;ordered-list&quot;&gt;Ordered List&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;&#x2F;li&gt;
+&lt;li&gt;Second item&lt;&#x2F;li&gt;
+&lt;li&gt;Third item&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;unordered-list&quot;&gt;Unordered List&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;&#x2F;li&gt;
+&lt;li&gt;Another item&lt;&#x2F;li&gt;
+&lt;li&gt;And another item&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;nested-list&quot;&gt;Nested list&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;&#x2F;li&gt;
+&lt;li&gt;Orange&lt;&#x2F;li&gt;
+&lt;li&gt;Banana&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;&#x2F;li&gt;
+&lt;li&gt;Cheese&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other-elements-abbr-sub-sup-kbd-mark-link&quot;&gt;Other Elements — abbr, sub, sup, kbd, mark, link&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;abbr title=&quot;Graphics Interchange Format&quot;&gt;GIF&lt;&#x2F;abbr&gt; is a bitmap image format.&lt;&#x2F;p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;&#x2F;sub&gt;O&lt;&#x2F;p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;&#x2F;sup&gt; + Y&lt;sup&gt;n&lt;&#x2F;sup&gt; = Z&lt;sup&gt;n&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;&#x2F;kbd&gt;+&lt;kbd&gt;ALT&lt;&#x2F;kbd&gt;+&lt;kbd&gt;Delete&lt;&#x2F;kbd&gt;&lt;&#x2F;kbd&gt; to end the
+session.&lt;&#x2F;p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;&#x2F;mark&gt; are nocturnal, and hunt for insects, worms, and
+other small creatures.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;!-- Note: There must be a blank line between every two lines of the footnote difinition.  --&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PAAkCSZUG1c&quot;&gt;talk&lt;&#x2F;a&gt;
+during Gopherfest, November 18, 2015.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;The quote is the first sentence of Aristotle&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Metaphysics_(Aristotle)&quot;&gt;Metaphysics&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Images, Direct and Relative Path</title>
+		<published>2021-05-08T00:00:00+00:00</published>
+		<updated>2021-05-08T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-images/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-images/</id>
+		<content type="html">&lt;p&gt;Images can be embed using direct or relative paths.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Use &lt;code&gt;img()&lt;&#x2F;code&gt; to specify the relative path of image:&lt;&#x2F;p&gt;
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+    
+  
+
+&lt;figure&gt;
+  &lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;levijatan.github.io&amp;#x2F;skogsvei&amp;#x2F;processed_images&amp;#x2F;199de027950a8f4800.jpg&quot; &#x2F;&gt;
+  
+&lt;&#x2F;figure&gt;
+&lt;p&gt;This is an example note with direct image, without using shortcode:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;rust.png&quot; alt=&quot;Rust&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is an svg image:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;svg class=&quot;canon&quot; xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; overflow=&quot;visible&quot; viewBox=&quot;0 0 496 373&quot; height=&quot;373&quot; width=&quot;496&quot;&gt;&lt;g fill=&quot;none&quot;&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515&quot;&gt;&lt;&#x2F;path&gt;&lt;path stroke=&quot;#ED1C24&quot; stroke-width=&quot;.75&quot; d=&quot;M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z&quot;&gt;&lt;&#x2F;path&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.479.375h495v372h-495zM247.979.875v372&quot;&gt;&lt;&#x2F;path&gt;&lt;ellipse cx=&quot;498.729&quot; cy=&quot;177.625&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;&#x2F;ellipse&gt;&lt;ellipse cx=&quot;247.229&quot; cy=&quot;377.375&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;&#x2F;ellipse&gt;&lt;&#x2F;g&gt;&lt;&#x2F;svg&gt;&lt;&#x2F;p&gt;
+&lt;style&gt;
+.canon { background: white; width: 50%; height: auto; }
+&lt;&#x2F;style&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Embedded Youtube &amp; Vimeo Videos</title>
+		<published>2021-05-07T00:00:00+00:00</published>
+		<updated>2021-05-07T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-embedded-videos/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-embedded-videos/</id>
+		<content type="html">&lt;p&gt;Zola has many shortcodes, and new are easily added, this example shows vimeo and youtube.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;vimeo&quot;&gt;Vimeo&lt;&#x2F;h2&gt;
+&lt;p&gt;with &lt;code&gt;vm(id=&amp;quot;id_here&amp;quot;)&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;div style=&quot;position:relative;padding-bottom:56.25%;height:0;overflow:hidden;&quot;&gt;
+	&lt;iframe src=&quot;https:&#x2F;&#x2F;player.vimeo.com&#x2F;video&#x2F;514402648&quot; style=&quot;position:absolute;top:0;left:0;&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;youtube&quot;&gt;Youtube&lt;&#x2F;h2&gt;
+&lt;p&gt;with &lt;code&gt;yt(id=&amp;quot;the_id_here&amp;quot;)&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;div style=&quot;position:relative;padding-bottom:56.25%;height:0;overflow:hidden;&quot;&gt;
+	&lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;32gyFIWecuw&quot; style=&quot;position:absolute;top:0;left:0;&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Rich Content</title>
+		<published>2021-05-06T00:00:00+00:00</published>
+		<updated>2021-05-06T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-rich-content/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-rich-content/</id>
+		<content type="html">&lt;p&gt;Several custom shortcodes are included to augment CommonMark (courtesy of d3c3nt theme), in addition to those &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;shortcodes&#x2F;#built-in-shortcodes&quot;&gt;already provided by Zola&lt;&#x2F;a&gt;. &lt;code&gt;video&lt;&#x2F;code&gt;, &lt;code&gt;image&lt;&#x2F;code&gt;, &lt;code&gt;gif&lt;&#x2F;code&gt;, and &lt;code&gt;audio&lt;&#x2F;code&gt; were created to help you take advantage of modern HTML elements in your writing.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;video&quot;&gt;Video&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;video&lt;&#x2F;code&gt; shortcode takes a &lt;code&gt;sources&lt;&#x2F;code&gt; parameter (an array of strings)
+and returns a &lt;code&gt;&amp;lt;video&amp;gt;&lt;&#x2F;code&gt; tag. Each string in the &lt;code&gt;sources&lt;&#x2F;code&gt; array should
+be a path to a video file of a different type (&lt;code&gt;webm&lt;&#x2F;code&gt;, &lt;code&gt;mp4&lt;&#x2F;code&gt;, etc). Each
+individual source is then converted into a &lt;code&gt;&amp;lt;source&amp;gt;&lt;&#x2F;code&gt; tag, and the
+element is returned.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;video&lt;&#x2F;span&gt;&lt;span&gt;(sources=[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;]) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;video &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;controls&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;video&#x2F;webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;video&#x2F;mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  Your browser doesn&amp;#39;t support the video tag and&#x2F;or the video formats in use here – sorry!
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;video&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;image&quot;&gt;Image&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;image&lt;&#x2F;code&gt; shortcode returns a &lt;code&gt;&amp;lt;picture&amp;gt;&lt;&#x2F;code&gt; tag and accepts three
+parameters: &lt;code&gt;sources&lt;&#x2F;code&gt; (an array of strings), &lt;code&gt;fallback_path&lt;&#x2F;code&gt;, and
+&lt;code&gt;fallback_alt&lt;&#x2F;code&gt; (both strings).&lt;&#x2F;p&gt;
+&lt;p&gt;Each string in the &lt;code&gt;sources&lt;&#x2F;code&gt; array should be a path to an image file of
+a different type (&lt;code&gt;webp&lt;&#x2F;code&gt;, &lt;code&gt;png&lt;&#x2F;code&gt;, &lt;code&gt;jpg&lt;&#x2F;code&gt;, etc). &lt;code&gt;fallback_path&lt;&#x2F;code&gt; and
+&lt;code&gt;fallback_alt&lt;&#x2F;code&gt; are used to create an &lt;code&gt;&amp;lt;img&amp;gt;&lt;&#x2F;code&gt; tag for the browser to fall
+back on if the other formats aren&#x27;t yet supported.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage-1&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;image&lt;&#x2F;span&gt;&lt;span&gt;(sources=[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.webp&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.jpg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;], fallback_path=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, fallback_alt=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Lorem Ipsum&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output-1&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;picture&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;srcset&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.webp&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;img&#x2F;webp&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;srcset&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.jpg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;img&#x2F;jpg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;srcset&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;img&#x2F;png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;img &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;alt&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Lorem Ipsum&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&#x2F;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;picture&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;gif&quot;&gt;GIF&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;gif&lt;&#x2F;code&gt; shortcode is exactly the same as the &lt;a href=&quot;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-rich-content&#x2F;#video&quot;&gt;video shortcode&lt;&#x2F;a&gt;
+– it takes an array of strings called &lt;code&gt;sources&lt;&#x2F;code&gt; and returns a
+&lt;code&gt;&amp;lt;video&amp;gt;&lt;&#x2F;code&gt; tag. The only difference is in the outermost tag, which has
+four additional properties: &lt;code&gt;autoplay&lt;&#x2F;code&gt;, &lt;code&gt;loop&lt;&#x2F;code&gt;, &lt;code&gt;muted&lt;&#x2F;code&gt;, &lt;code&gt;playsinline&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Using the &lt;code&gt;&amp;lt;video&amp;gt;&lt;&#x2F;code&gt; tag in place of gifs allows for reduced file sizes,
+which is especially important in regions where internet is slower or
+less reliable.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage-2&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;gif&lt;&#x2F;span&gt;&lt;span&gt;(sources=[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;]) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output-2&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;video &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;autoplay loop muted playsinline&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;video&#x2F;webm&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;video&#x2F;mp4&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  Your browser doesn&amp;#39;t support the video tag, which I use in place of .gifs, and&#x2F;or the video formats in use here – sorry!
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;video&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;audio&quot;&gt;Audio&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;audio&lt;&#x2F;code&gt; shortcode takes a &lt;code&gt;sources&lt;&#x2F;code&gt; array of strings and returns an
+&lt;code&gt;&amp;lt;audio&amp;gt;&lt;&#x2F;code&gt; tag. Each string in the &lt;code&gt;sources&lt;&#x2F;code&gt; array should be a path to an
+audio file of a different type (&lt;code&gt;wav&lt;&#x2F;code&gt;, &lt;code&gt;ogg&lt;&#x2F;code&gt;, &lt;code&gt;mp3&lt;&#x2F;code&gt;, etc).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage-3&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;audio&lt;&#x2F;span&gt;&lt;span&gt;(sources=[&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.wav&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.ogg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;example.mp3&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;]) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output-3&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;audio &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;controls&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.wav&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;audio&#x2F;wav&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.ogg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;audio&#x2F;ogg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;&#x2F;overview-rich-content&#x2F;example.mp3&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;audio&#x2F;mp3&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  Your browser doesn&amp;#39;t support the audio tag and&#x2F;or the audio formats in use here – sorry!
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;audio&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Mathematical Notations Support</title>
+		<published>2021-05-05T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-math/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-math/</id>
+		<content type="html">&lt;p&gt;You can use &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&quot;&gt;$\KaTeX$&lt;&#x2F;a&gt; to render mathematical notations.&lt;&#x2F;p&gt;
+&lt;p&gt;You can enable the $\KaTeX$ support globally, per-section or per-page basis.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;enable-globally&quot;&gt;Enable Globally&lt;&#x2F;h3&gt;
+&lt;p&gt;To enable the $\KaTeX$ support globally, add &lt;code&gt;math = true&lt;&#x2F;code&gt; under &lt;code&gt;[extra]&lt;&#x2F;code&gt; of the &lt;code&gt;config.toml&lt;&#x2F;code&gt;
+at your site root. Now every section and page of your site will load the KaTeX &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;autorender.html&quot;&gt;autorender extension&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;math &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;per-section-basis&quot;&gt;Per-section Basis&lt;&#x2F;h3&gt;
+&lt;p&gt;To enable the $\KaTeX$ support in a particular section, add &lt;code&gt;math = true&lt;&#x2F;code&gt; under &lt;code&gt;[extra]&lt;&#x2F;code&gt; in the &lt;code&gt;[SECTION_NAME]&#x2F;_index.md&lt;&#x2F;code&gt;. Now every page under this section will load the KaTeX
+&lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;autorender.html&quot;&gt;autorender extension&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;md&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-md &quot;&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span&gt;math = true
+&lt;&#x2F;span&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;per-page-basis&quot;&gt;Per-page Basis&lt;&#x2F;h3&gt;
+&lt;p&gt;To enable the $\KaTeX$ support in a particular page, add &lt;code&gt;math = true&lt;&#x2F;code&gt; under &lt;code&gt;[extra]&lt;&#x2F;code&gt; in the page&#x27;s
+frontmatter. Now this page will load the $\KaTeX$ &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;autorender.html&quot;&gt;autorender extension&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span&gt;math = true
+&lt;&#x2F;span&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;It is a good practice to enable $\KaTeX$ support on a per-page basis, since this will only load the
+required files on that particular page, without affecting the page load speed of other pages.
+If your site is not math-heavy, please do NOT enable this feature globally or per-section basis.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h2&gt;
+&lt;p&gt;Wrap any &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;supported.html&quot;&gt;valid&lt;&#x2F;a&gt; $\KaTeX$ syntax with &lt;code&gt;$...$&lt;&#x2F;code&gt; for inline
+Mathematics and &lt;code&gt;$$...$$&lt;&#x2F;code&gt; for block Mathematics.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;inline-mathematics&quot;&gt;Inline Mathematics&lt;&#x2F;h3&gt;
+&lt;p&gt;This is the most beautiful equation I&#x27;ve ever seen:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;$e^{i\pi}+1=0$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;$e^{i\pi}+1=0$&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;block-mathematics&quot;&gt;Block Mathematics&lt;&#x2F;h3&gt;
+&lt;p&gt;Some Mathematics in display mode is fair enough:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;span&gt;\int_0^1 x^2 dx
+&lt;&#x2F;span&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;$$
+\int_0^1 x^2 dx
+$$&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;another-example&quot;&gt;Another Example&lt;&#x2F;h3&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;span&gt;f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+&lt;&#x2F;span&gt;&lt;span&gt;$$
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi),e^{2 \pi i \xi x},d\xi
+$$&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Image Comparison imagehover Shortcode</title>
+		<published>2021-05-04T00:00:00+00:00</published>
+		<updated>2021-05-04T00:00:00+00:00</updated>
+		<link href="https://levijatan.github.io/skogsvei/overview-fonts-imagehover-shortcode/" type="text/html"/>
+		<id>https://levijatan.github.io/skogsvei/overview-fonts-imagehover-shortcode/</id>
+		<content type="html">&lt;p&gt;This shortcode accepts an array of images, the first element is the default, the remaining images are hover images.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;with &lt;code&gt;imagehover(sources=[&amp;quot;file1.jpg&amp;quot;, &amp;quot;file2.jpg&amp;quot;, &amp;quot;file3.jpg&amp;quot;])&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+
+
+    &lt;div id=&quot;DroidSans&quot;&gt;## DroidSans &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;DroidSans&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;DroidSans&#x27;).innerHTML=&#x27;DroidSans&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;DroidSansimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+    &lt;div id=&quot;Roboto&quot;&gt;## Roboto &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;Roboto&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;Roboto&#x27;).innerHTML=&#x27;Roboto&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;Robotoimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+    &lt;div id=&quot;Arimo&quot;&gt;## Arimo &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;Arimo&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;Arimo&#x27;).innerHTML=&#x27;Arimo&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;Arimoimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+    &lt;div id=&quot;Lato&quot;&gt;## Lato &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;Lato&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;Lato&#x27;).innerHTML=&#x27;Lato&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;Latoimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+    &lt;div id=&quot;Ubuntu&quot;&gt;## Ubuntu &lt;&#x2F;div&gt;
+    &lt;a onmouseover=&quot;document.getElementById(&#x27;Ubuntu&#x27;).innerHTML=&#x27;System&#x27;;&quot; onmouseout=&quot;document.getElementById(&#x27;Ubuntu&#x27;).innerHTML=&#x27;Ubuntu&#x27;;&quot; href=&quot;#&quot;&gt;&lt;div id=&quot;Ubuntuimage&quot;&gt; &lt;&#x2F;div&gt;&lt;&#x2F;a&gt;
+
+&lt;style&gt;
+      #DroidSansimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;DroidSans.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #DroidSansimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+      #Robotoimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;Roboto.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #Robotoimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+      #Arimoimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;Arimo.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #Arimoimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+      #Latoimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;Lato.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #Latoimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+      #Ubuntuimage {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;Ubuntu.png&#x27;);
+        width: 560px;
+        height: 650px;
+      }
+      #Ubuntuimage:hover {
+        background-image: url(&#x27;https:&#x2F;&#x2F;levijatan.github.io&#x2F;skogsvei&#x2F;overview-fonts-imagehover-shortcode&#x2F;System.png&#x27;);
+      }
+&lt;&#x2F;style&gt;
+</content>
+	</entry>
+</feed>

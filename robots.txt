@@ -1,0 +1,4 @@
+Sitemap: https://levijatan.github.io/skogsvei/sitemap.xml
+User-Agent: *
+Allow: /
+Host: https://levijatan.github.io/skogsvei
